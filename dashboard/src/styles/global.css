@@ -1,0 +1,54 @@
+:root{
+    --orange-100: #FFD700;
+    --orange-200: #FFC100;
+    --orange-300: #FFB000;
+    --orange-400: #FF9A00;
+    --orange-500: #FF8A00;
+    --orange-600: #FF7A00;
+    --orange-700: #FF6A00;
+    --orange-800: #FF5A00;
+    --orange-900: #FF4A00;
+    --orange-1000: #FF3A00;
+
+    --purple-100: #800080;
+    --purple-200: #730073;
+    --purple-300: #660066;
+    --purple-400: #590059;
+    --purple-500: #4C004C;
+    --purple-600: #3F003F;
+    --purple-700: #320032;
+    --purple-800: #250025;
+    --purple-900: #180018;
+    --purple-1000: #0B000B;
+
+    --red-100: #FF0000;
+    --red-200: #D70000;
+    --blue-100: #0000FF;
+    --blue-200: #0000D7;
+    --green-100: #00FF00;
+    --green-200: #00D700;
+    --gray-light: #E0E0E0;
+    --gray-dark: #333333;
+
+    --background-light: #cbcbcb;
+    --base-white: #FFFFFF;
+    --base-black: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: var(--background-light);
+    color: var(--orange-1000);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+button{
+    cursor: pointer;
+}
