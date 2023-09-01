@@ -1,11 +1,12 @@
 import style from '../styles/Sidebar.module.css'
-import {CodesandboxLogo, Kanban, Storefront, ChartPie, ChatCenteredDots, UsersThree, Gear, SignOut} from 'phosphor-react'
+import {PawPrint, Kanban, Storefront, ChartPie, ChatCenteredDots, UsersThree, Gear, SignOut} from 'phosphor-react'
+import beagle from '../assets/beagle.png'
 
 export function Sidebar(){
     return(
         <aside className={style.sidebar}>
             <header className={style.header}>
-                <CodesandboxLogo size={24}/>
+                <PawPrint size={24} />
                 <p>Beagle</p><span>Prog</span>
             </header>
             
@@ -40,6 +41,8 @@ export function Sidebar(){
                 <SignOut size={24}/>
                 <p>Logout</p>
             </footer>
+
+            <img src={beagle} alt="beagle picture" />
 
         </aside>
     );
